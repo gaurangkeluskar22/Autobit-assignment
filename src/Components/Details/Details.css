@@ -1,0 +1,6 @@
+.details-container {
+    margin-top: 10px;
+    height: calc(100vh - 115px - 40px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}

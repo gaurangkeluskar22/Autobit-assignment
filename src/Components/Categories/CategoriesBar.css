@@ -1,0 +1,17 @@
+.categories-bar-section{
+    margin-top: 65px;
+    overflow: scroll;
+}
+
+.categories-bar-section  button:first-child{
+    padding-left: 55px;
+}
+
+.categories-bar-section  button:last-child{
+    padding-right: 12px;
+}
+
+
+.categories-bar-section::-webkit-scrollbar{
+    display: none;
+}

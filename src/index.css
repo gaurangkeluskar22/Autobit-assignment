@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+  font-family: 'SF Pro Display', sans-serif;  
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --background-color: #0C0C0C;
+  --loss-color: #FD0000;
+  --profit-color: #02F411;
+  --grey-color: #868686;
+}
+
+
+
+body{
+  background: var(--background-color);
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.j-c{
+  justify-content: center;
+}
+
+.a-c{
+  align-items: center;
+}
