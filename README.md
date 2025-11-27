@@ -3,7 +3,7 @@
 A modern, fast, and responsive financial dashboard UI built using **React**, **Tailwind CSS**, **React Icons**, and **React Virtualized**.  
 This project provides a clean interface with smooth interactions, live-style stock updates, and high-performance list rendering.
 
----
+URL: https://autobit-ten.vercel.app/
 
 ## 🚀 Features
 
