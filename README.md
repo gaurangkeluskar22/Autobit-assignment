@@ -1,16 +1,62 @@
-# React + Vite
+# 📈 Trading App – Live Market Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fast, and responsive financial dashboard UI built using **React**, **Tailwind CSS**, **React Icons**, and **React Virtualized**.  
+This project provides a clean interface with smooth interactions, live-style stock updates, and high-performance list rendering.
 
-Currently, two official plugins are available:
+URL: https://autobit-ten.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### ✅ Clean & Modern UI
+- Minimalistic design with smooth spacing and dark theme.
+- Easy-to-navigate layout.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📱 Responsive UI
+- Fully responsive for mobile, tablet, and desktop.
+- Built using Tailwind’s utility-first approach.
 
-## Expanding the ESLint configuration
+### 📈 Live Stock Data Preview
+- Auto-updating stock values (high/low).
+- Color indicators for profit/loss.
+- Smooth real-time visual updates.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ⚡ List Virtualization
+- Uses **react-virtualized** for efficient rendering.
+- Prevents lag and improves performance for large lists.
+
+### 🔧 Custom Data Updation Logic
+- Stock values refresh automatically every second.
+- Supports random increment/decrement simulations.
+
+### 🎨 Tailwind CSS Styling
+- Fast styling with utility classes.
+- Clean, consistent, and scalable UI.
+
+### 🔤 React Icons for Icons
+- Lightweight SVG-based icons.
+- Smooth and scalable icon rendering.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology        | Purpose                               |
+|-------------------|----------------------------------------|
+| **React**         | UI components and logic                |
+| **Tailwind CSS**  | Styling and responsive design          |
+| **React Icons**   | Icon library                           |
+| **React Virtualized** | High-performance list rendering |
+| **JavaScript / JSX** | UI structure and logic             |
+
+---
+
+## 📦 Installation
+
+```bash
+npm install
+npm start
+```
+## 🖼️ Image
+<img width="381" height="797" alt="image" src="https://github.com/user-attachments/assets/ced1cc87-ffad-499e-a75d-5bf6ceacdb7f" />
+
+
