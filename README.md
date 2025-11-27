@@ -58,5 +58,7 @@ npm start
 ```
 ## 🖼️ Image
 <img width="381" height="797" alt="image" src="https://github.com/user-attachments/assets/ced1cc87-ffad-499e-a75d-5bf6ceacdb7f" />
+<img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/5a2eb479-3866-485f-a9a1-6bcf238f206e" />
+
 
 
