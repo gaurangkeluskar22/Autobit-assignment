@@ -45,14 +45,14 @@ const StockComponent = ({ data }) => {
             case 1:
                 component = (
                     <div className="w-[37px] h-[37px] flex j-c a-c">
-                        <img src={imagesArr[0]} className="w-7 h-7 rounded-[50%] object-cover border-2 border-white" draggable="false" />
+                        <img src={imagesArr[0]} alt="country-flag-img" className="w-7 h-7 rounded-[50%] object-cover border-2 border-white" draggable="false" loading="lazy" />
                     </div>)
                 break;
             case 2:
                 component = (
                     <div className="relative w-[37px] h-[37px]">
-                        <img src={imagesArr[0]} className="w-7 h-7 rounded-[50%] object-cover border-2 border-white absolute top-0 left-0" draggable="false" />
-                        <img src={imagesArr[1]} className="w-7 h-7 rounded-[50%] object-cover border-2 border-white absolute bottom-0 right-0" draggable="false" />
+                        <img src={imagesArr[0]} alt="country-flag-img" className="w-7 h-7 rounded-[50%] object-cover border-2 border-white absolute top-0 left-0" draggable="false" loading="lazy" />
+                        <img src={imagesArr[1]} alt="country-flag-img" className="w-7 h-7 rounded-[50%] object-cover border-2 border-white absolute bottom-0 right-0" draggable="false" loading="lazy" />
                     </div>)
                 break;
 

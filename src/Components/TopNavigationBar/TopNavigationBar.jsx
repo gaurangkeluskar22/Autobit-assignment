@@ -11,6 +11,7 @@ const TopNavigationBar = () => {
             <button
                 type="button"
                 className='focus:outline-none'
+                aria-label="Header Nav Button"
             >
                 <Icon size={size} color={color} />
             </button>

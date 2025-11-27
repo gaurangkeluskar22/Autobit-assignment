@@ -22,6 +22,7 @@ const CategoriesBar = () => {
                 className='focus:outline-none text-sm'
                 style={{ color: color }}
                 onClick={() => onSelect(id)}
+                aria-label="Category Tab Button"
 
             >
                 {label}

@@ -11,6 +11,7 @@ const BottomTab = React.memo(function BottomTab({ item, isActive, onSelect }) {
             type="button"
             onClick={() => onSelect(item.index)}
             className="flex flex-col items-center justify-center gap-1 focus:outline-none"
+            aria-label="Bottom Tab Icon"
         >
             <Icon size={size} color={color} />
             <span className="text-xs" style={{ color }}>
